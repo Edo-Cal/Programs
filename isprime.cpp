@@ -1,10 +1,10 @@
-//this function takes in an int and returns 1 if it's prime and 2 if it's not, if the number is equal to 0 it returns 0.
+//this function takes in an int and returns 1 if it's prime and 0 if it's not, if the number is equal to 0 it returns 2.
 int isprime(int num){
 	
 	int x=0;
 	
 	if (num == 0) {
-		return 0; //zero
+		return 2; //zero
 	}
 	else {
 		for (int i=2; i < num; i++){
@@ -16,7 +16,7 @@ int isprime(int num){
 	
 	
 	if (x >= 1){
-		return 2; //not prime
+		return 0; //not prime
 	}
 	else
 		return 1; //prime
