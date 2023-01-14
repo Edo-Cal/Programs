@@ -1,4 +1,4 @@
-//this function takes in an int and returns 1 if it's prime and 0 if it's not, if the number is equal to 0 it returns 2.
+//this function takes in an int and returns 1 if it's prime and 0 if it's not, if the number is equal to 0 it returns 2
 int isprime(int num){
 	
 	int x=0;
