@@ -51,7 +51,7 @@ int main()
 		ch = char_freq[i][0];
 		for (y = i; y < len; y++)
 		{
-			if (char_freq[y][1] < minf)
+			if (char_freq[y][1] <= minf)
 			{
 				ix = y;
 				minf = char_freq[y][1];
