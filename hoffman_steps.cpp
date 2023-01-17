@@ -144,5 +144,6 @@ int main()
 		cout << "The compression was successful, the string has been compressed by " << init_size - final_size << " bits.\n";
 	}
 
+	delete[] freq;
 	return 0;
 }
