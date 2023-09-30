@@ -1,0 +1,17 @@
+
+Microsoft DiskPart versione 10.0.19041.964
+
+Copyright (C) Microsoft Corporation.
+Nel computer DESKTOP-1MN82VU
+
+DISKPART> 
+  Volume ###  Let. Etichetta    Fs     Tipo        Dim.     Stato      Info
+  ---------   ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     C                NTFS   Partizione   111 Gb  Integro    Avvio   
+  Volume 1         Ripristino   NTFS   Partizione   529 Mb  Integro    Nascosto
+  Volume 2                      FAT32  Partizione    99 Mb  Integro    Sistema 
+  Volume 3                      FAT32  Partizione   600 Mb  Integro    Nascosto
+  Volume 4     D                       Rimovibile      0 b  Nessun su          
+  Volume 5     F                FAT32  Rimovibile    28 Gb  Integro            
+
+DISKPART> 
